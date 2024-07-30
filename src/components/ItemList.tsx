@@ -12,8 +12,8 @@ export function ItemListTop3(props: ItemList){
   return(
     <div className="flex flex-row justify-between">
       <div className="flex gap-4 items-center">
-        <p className="font-paris2024 font-semibold text-xl md:text-2xl w-5">{props.position}</p>
-        <img src={props.flagOfCountry} alt="" className='w-6 md:w-10' />
+        <p className="font-paris2024 font-semibold text-xl md:text-2xl w-2 md:w-5">{props.position}</p>
+        <img src={props.flagOfCountry} alt="" className='w-6 md:w-10'/>
         <p className="font-paris2024 font-semibold text-xl md:text-2xl">{props.country}</p>
       </div>
       <div className="flex gap-4 items-center">
@@ -29,7 +29,7 @@ export function ItemList(props: ItemList){
   return(
     <div className="flex flex-row justify-between">
       <div className="flex gap-4 items-center">
-        <p className="font-paris2024 font-regular text-xl md:text-2xl w-5">{props.position}</p>
+        <p className="font-paris2024 font-regular text-xl md:text-2xl w-2 md:w-5">{props.position}</p>
         <img src={props.flagOfCountry} alt="" className='w-4 md:w-9'/>
         <p className="font-paris2024 font-regular text-xl md:text-2xl">{props.country}</p>
       </div>
